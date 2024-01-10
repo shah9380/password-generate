@@ -1,0 +1,117 @@
+* {
+  font-family: Arial;
+}
+
+.container {
+  background-color: #24232b;
+  padding: 24px;
+}
+
+.header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+button {
+  align-items: center;
+  background-image: radial-gradient(circle, rgba(47,41,142,1) 0%, rgba(9,81,121,1) 48%, rgba(0,212,255,1) 100%);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #3a3636;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 18px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all .3s;
+ }
+ 
+ button:active{
+  transform: scaleX(0.1);
+ }
+ button:hover {
+  outline: 0;
+  color: white;
+ }
+ 
+ button span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+ }
+ 
+ button:hover span {
+  background: none;
+ }
+
+.copyBtn {
+  height: 30px;
+  font-size: 10px;
+}
+
+.charlength {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+
+.charlength span {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+
+.checkboxes {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(156, 238, 182);
+}
+
+.checkboxes div {
+  display: flex;
+  gap: 5px;
+  padding-bottom: 25px;
+}
+
+.generateBtn {
+  width: 100%;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.errorMessage {
+  color: rgba(255, 0, 0, 0.355);
+  padding-bottom: 5px;
+}
+
+.password-strength {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  color: white;
+}
